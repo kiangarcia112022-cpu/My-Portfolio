@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KRIS IAN M GARCIA | Portfolio</title> <!-- EDIT: your name -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <input type="checkbox" id="theme-toggle" class="theme-checkbox">
+  <canvas id="particles" aria-hidden="true"></canvas>
+
+
+  <header class="topbar">
+    <nav class="nav" id="nav">
+      <a class="brand" href="#home">Kian</a> <!-- EDIT: your initials -->
+      <button class="burger" id="burger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="menu" id="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#skills">My Skills</a></li>
+        <li><a href="#projects">My Projects</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+      </ul>
+      <label for="theme-toggle" class="theme-btn" aria-label="Switch light or dark mode"></label>
+    </nav>
+  </header>
+
+  <main>
+
+
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <div class="hero-text">
+          <p class="hello">Hello, I'm</p>
+          <h1>Kris Ian M. Garcia</h1> <!-- EDIT -->   
+          <p class="tagline">Bringing your digital vision to life.</p> <!-- EDIT -->
+          <p class="intro">Hi! I’m Kian, a web developer and student studying ACT. I love building fast, user-friendly system that solve real-world problems.</p> <!-- EDIT -->
+          <a href="#about" class="btn">Explore My Portfolio</a>
+        </div>
+
+        <!-- Profile picture with rotating "Infinity" rings -->
+        <div class="avatar-wrap">
+          <div class="rings" aria-hidden="true">
+            <i class="ring r1"></i><i class="ring r2"></i><i class="ring r3"></i><i class="orb"></i>
+          </div>
+          <!-- EDIT: replace src with your photo, e.g. src="images/profile.jpg" -->
+          <img class="avatar" alt="Profile picture of [YOUR FULL NAME]" src="810184175_1539799804497544_4427511754835611632_n.jpg">
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 2. ABOUT ME ===== -->
+    <section id="about">
+      <div class="container">
+        <h2 class="reveal">About Me</h2>
+        <div class="about reveal">
+          <!-- EDIT: replace src with your own about image -->
+          <img class="about-img" alt="About me photo" src="6839f302-5cb6-4068-b284-37ab4ec58dfa.jpg">
+          <div class="about-text glass">
+            <p>I am an aspiring tech professional passionate about learning new technologies and developing my skills in the digital world. My journey into tech is driven by curiosity, creativity, and a desire to solve problems through technology. My goal is to continuously improve my knowledge, gain hands-on experience, and build innovative solutions that can make a positive impact on people's lives.</p> <!-- EDIT -->
+            <ul class="info">
+              <li><strong>Course / Program:</strong> Associate in Computer Technology</li>
+              <li><strong>School:</strong> Datamex College Of Saint Adeline</li>
+              <li><strong>Hobbies:</strong> Basketball, Web Developing, Gaming</li>
+              <li><strong>Interests:</strong> Game Develeping, Coding</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="skills">
+  <div class="container">
+    <h2 class="reveal">My Skills</h2>
+    <div class="skills-grid">
+      <article class="skill glass reveal">
+        <h3>HTML <span>25%</span></h3>
+        <p>Semantic, accessible page structure.</p>
+        <div class="bar"><div class="fill" style="width:25%"></div></div>
+      </article>
+      <article class="skill glass reveal">
+        <h3>CSS <span>20%</span></h3>
+        <p>Responsive layouts, Flexbox and animations.</p>
+        <div class="bar"><div class="fill" style="width:20%"></div></div>
+      </article>
+      <article class="skill glass reveal">
+        <h3>JavaScript <span>10%</span></h3>
+        <p>Interactive features and DOM scripting.</p>
+        <div class="bar"><div class="fill" style="width:10%"></div></div>
+      </article>
+      <article class="skill glass reveal">
+        <h3>Python <span>30%</span></h3>
+        <p>Scripts, logic and small tools.</p>
+        <div class="bar"><div class="fill" style="width:30%"></div></div>
+      </article>
+      <article class="skill glass reveal">
+        <h3>UI/UX Design <span>40%</span></h3>
+        <p>Wireframes and clean user interfaces.</p>
+        <div class="bar"><div class="fill" style="width:40%"></div></div>
+      </article>
+    </div>
+  </div>
+</section>
+    <!-- ===== 4. MY PROJECTS ===== -->
+    <section id="projects">
+      <div class="container">
+        <h2 class="reveal">My Projects</h2>
+        <div class="projects">
+
+          <article class="card glass reveal">
+            <div class="thumb"><img alt="Personal Portfolio Website screenshot" src="C:\Users\hp\Pictures\Screenshots\Screenshot 2026-10-07 110405.png"></div>
+            <div class="card-body">
+              <h3>Personal Portfolio Website</h3>
+              <p>A responsive portfolio website showcasing my background, skills, and projects.</p>
+              <ul class="tech"><li>HTML</li><li>CSS</li></ul>
+            </div>
+          </article>
+
+          <article class="card glass reveal">
+            <div class="thumb"><img alt="Student Management System screenshot" src="C:\Users\hp\Pictures\Screenshots\Screenshot 2026-10-07 110838.png"></div>
+            <div class="card-body">
+              <h3>Student Management System</h3>
+              <p>A simple system designed to manage student information and records.</p>
+              <ul class="tech"><li>Canva</li><li>C#</li><li>SQL</li><li>Access</li></ul>
+            </div>
+          </article>
+
+          <article class="card glass reveal">
+            <div class="thumb"><img alt="To-Do List Application screenshot" src="C:\Users\hp\Pictures\Screenshots\Screenshot 2026-10-07 111306.png  "></div>
+            <div class="card-body">
+              <h3>Enrollment System</h3>
+              <p>A simple system designed to manage student information and records.</p>
+              <ul class="tech"><li>Python</li></ul>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2 class="reveal">Contact Me</h2>
+        <div class="contact reveal">
+          <div class="contact-info glass">
+            <p>Email: <a href="mailto:kiangarcia112022@gmail.com">kiangarcia112022@gmail.com</a></p> 
+            <div class="social">
+
+              <a href="https://www.facebook.com/kian.garcia.71653" target="_blank" rel="noopener">Facebook</a>
+              <a href="https://www.instagram.com/alt.kian/" target="_blank" rel="noopener">Instagram</a>
+              <a href="https://github.com/kiangarcia112022-cpu" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </div>
+          <form id="contactForm" class="glass">
+            <input type="text" name="name" placeholder="Your name" aria-label="Your name" required>
+            <input type="email" name="email" placeholder="Your email" aria-label="Your email" required>
+            <textarea name="message" placeholder="Your message" aria-label="Your message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>&copy; 2026 Kris Ian M. Garcia. Built with HTML and CSS.</footer>
+
+</body>
+</html>
